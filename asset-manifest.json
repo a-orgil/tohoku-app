@@ -1,16 +1,16 @@
 {
-  "main.css": "/tohoku-app/static/css/main.8316ecb8.chunk.css",
-  "main.js": "/tohoku-app/static/js/main.35933847.chunk.js",
-  "main.js.map": "/tohoku-app/static/js/main.35933847.chunk.js.map",
-  "static/js/1.95ea83b6.chunk.js": "/tohoku-app/static/js/1.95ea83b6.chunk.js",
-  "static/js/1.95ea83b6.chunk.js.map": "/tohoku-app/static/js/1.95ea83b6.chunk.js.map",
-  "static/js/2.fe9e49dc.chunk.js": "/tohoku-app/static/js/2.fe9e49dc.chunk.js",
-  "static/js/2.fe9e49dc.chunk.js.map": "/tohoku-app/static/js/2.fe9e49dc.chunk.js.map",
-  "runtime~main.js": "/tohoku-app/static/js/runtime~main.15bc0688.js",
-  "runtime~main.js.map": "/tohoku-app/static/js/runtime~main.15bc0688.js.map",
-  "static/media/logo.svg": "/tohoku-app/static/media/logo.5d5d9eef.svg",
-  "static/css/main.8316ecb8.chunk.css.map": "/tohoku-app/static/css/main.8316ecb8.chunk.css.map",
-  "index.html": "/tohoku-app/index.html",
-  "precache-manifest.c6e53ae313e3a50cfca3fcc4f35323dc.js": "/tohoku-app/precache-manifest.c6e53ae313e3a50cfca3fcc4f35323dc.js",
-  "service-worker.js": "/tohoku-app/service-worker.js"
+  "files": {
+    "main.css": "/tohoku-app/static/css/main.318eb18b.css",
+    "main.js": "/tohoku-app/static/js/main.6e20903f.js",
+    "static/js/787.42625f79.chunk.js": "/tohoku-app/static/js/787.42625f79.chunk.js",
+    "service-worker.js": "/tohoku-app/service-worker.js",
+    "index.html": "/tohoku-app/index.html",
+    "main.318eb18b.css.map": "/tohoku-app/static/css/main.318eb18b.css.map",
+    "main.6e20903f.js.map": "/tohoku-app/static/js/main.6e20903f.js.map",
+    "787.42625f79.chunk.js.map": "/tohoku-app/static/js/787.42625f79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.318eb18b.css",
+    "static/js/main.6e20903f.js"
+  ]
 }

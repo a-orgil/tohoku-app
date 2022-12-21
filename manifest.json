@@ -1,9 +1,12 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "TohokuApp",
+  "name": "TohokuApp",
+  "version" : "0.1.0",
+  "private" : true,
+  "homepage" : "https://a-orgil.github.io/tohoku-app/",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "haganekun.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
