@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/tohoku-app/static/css/main.318eb18b.css",
-    "main.js": "/tohoku-app/static/js/main.6e20903f.js",
+    "main.js": "/tohoku-app/static/js/main.89fcaeb4.js",
     "static/js/787.42625f79.chunk.js": "/tohoku-app/static/js/787.42625f79.chunk.js",
     "service-worker.js": "/tohoku-app/service-worker.js",
     "index.html": "/tohoku-app/index.html",
     "main.318eb18b.css.map": "/tohoku-app/static/css/main.318eb18b.css.map",
-    "main.6e20903f.js.map": "/tohoku-app/static/js/main.6e20903f.js.map",
+    "main.89fcaeb4.js.map": "/tohoku-app/static/js/main.89fcaeb4.js.map",
     "787.42625f79.chunk.js.map": "/tohoku-app/static/js/787.42625f79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.318eb18b.css",
-    "static/js/main.6e20903f.js"
+    "static/js/main.89fcaeb4.js"
   ]
 }
