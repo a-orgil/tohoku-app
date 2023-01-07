@@ -1,21 +1,26 @@
 import { Button, Container, Grid, Typography } from "@mui/material";
 import React, { useState } from "react";
+import { NumberObj } from "../classes/NumberObj";
 import { BottomButton } from "../components/BottomButton";
 import CustomDialog from "../components/CustomDialog";
 import { Title } from "../components/Title";
 import { UserName } from "../components/UserName";
 import CardForInspection from "./CardForInspection";
-import { NumberObj } from "../classes/NumberObj";
+import ShowResult from "./ShowResult";
 
 function Inspection({menu, userName, setMenu}:{menu:number, userName:string, setMenu:React.Dispatch<React.SetStateAction<number>>}) {
   const [openSuccess, setOpenSuccess ] = useState(false);
   const [openFailure, setOpenFailure ] = useState(false);
 
   const [ reset, setReset ] = useState(false);
+  const [ reqNumbers, setReqNumbers ] = useState<NumberObj[]>([]);
 
   function executeInspection (){
     if (true){
       setOpenSuccess(true);
+      console.log('=====');
+      console.log(reqNumbers);
+      console.log('=====');
       setReset(true);
     } else {
       setOpenFailure(true);
@@ -30,14 +35,14 @@ function Inspection({menu, userName, setMenu}:{menu:number, userName:string, set
         <Grid container
           rowSpacing = {0.5}
           display = "flex"
-          // direction = "column"
           justifyContent = "center"
           >
+          <ShowResult />
           <Grid item>
             <Typography component = "h1" variant = "h5"></Typography>
           </Grid>
           <Grid item>
-            <CardForInspection reset = {reset} />
+            <CardForInspection reset = {reset} setReqNumbers ={setReqNumbers} />
           </Grid>
           <Grid item xs = {6}>
             <Button

@@ -7,9 +7,10 @@ import CameraAltIcon from "@mui/icons-material/CameraAlt";
 import CloseIcon from '@mui/icons-material/Close';
 import { useInspectionHooks } from "../hooks/inspectionHooks";
 import DeleteIcon from '@mui/icons-material/Delete';
+import { NumberObj } from "../classes/NumberObj";
 
-const CardForInspection = (props: {reset : boolean}) => {
-    const {reset} = props
+const CardForInspection = (props: {reset : boolean, setReqNumbers : React.Dispatch<React.SetStateAction<NumberObj[]>>}) => {
+    const {reset, setReqNumbers} = props
     const { handleFiles, imageContainerRef, base64, inputFileRef, openDialog, resetSelection, objectURL } = useHooks();
     const didMountRef = useRef(false);
     const { numbers, setNumbers, count, handleEdit, addNumber, handleDelete } = useInspectionHooks();
@@ -39,6 +40,10 @@ const CardForInspection = (props: {reset : boolean}) => {
             resetAll();
         }
     }, [reset]);
+
+    useEffect(()=>{
+        setReqNumbers(numbers);
+    },[numbers])
 
     return (
         <>
